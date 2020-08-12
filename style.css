@@ -1,0 +1,89 @@
+:root {
+  /* Primary */
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+  /* Neutral */
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: var(--Very-Light-Gray);
+  color: var(--Very-Dark-Blue);
+
+  margin: 90px 40px;
+}
+
+.lighter {
+  font-weight: 200;
+  color: var(--Grayish-Blue);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h1.lighter {
+  font-size: 23px;
+  margin-bottom: -10px;
+}
+
+p {
+  color: var(--Grayish-Blue);
+  font-size: 13px;
+}
+
+.intro > p {
+  margin-bottom: 35px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+p.title {
+  color: var(--Very-Dark-Blue);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px 0 -10px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin: 20px auto 20px;
+  border-radius: 0.4rem;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#Supervisor {
+  border-top: 5px solid var(--Cyan);
+}
+
+#TeamBuilder {
+  border-top: 5px solid var(--Red);
+}
+
+#Karma {
+  border-top: 5px solid var(--Orange);
+}
+
+#Calculator {
+  border-top: 5px solid var(--Blue);
+}
+
+.card > img {
+  align-self: flex-end;
+}
+
+@media all and (min-width: 1024px) {
+}
