@@ -1,18 +1,14 @@
 # Four card feature section
 
-## Overview
-
-Challenge by frontendmentor.io
-
-**My ans**
+## Preview
 
 https://thuanpham2311.github.io/four-card-feature-section/
 
-## Review
+## Description
 
-### Phone
+Challenge by frontendmentor.io
 
-<img src="./images/reviewPhone.png" alt="drawing" width="300"/>
+![](./design/desktop-design.jpg)
 
 ## Contributing workflow
 
