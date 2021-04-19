@@ -74,19 +74,19 @@ p.title {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-#Supervisor {
+.Supervisor {
   border-top: 5px solid var(--Cyan);
 }
 
-#TeamBuilder {
+.TeamBuilder {
   border-top: 5px solid var(--Red);
 }
 
-#Karma {
+.Karma {
   border-top: 5px solid var(--Orange);
 }
 
-#Calculator {
+.Calculator {
   border-top: 5px solid var(--Blue);
 }
 
