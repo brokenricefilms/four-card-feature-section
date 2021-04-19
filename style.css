@@ -13,13 +13,24 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   background-color: var(--Very-Light-Gray);
   color: var(--Very-Dark-Blue);
-
-  margin: 90px 40px;
+  margin: 5rem auto 5rem auto;
 }
+
+.intro {
+  text-align: center;
+}
+
+.intro > p {
+  margin-bottom: 2.25rem;
+  text-align: center;
+  width: 25rem;
+  margin: auto auto;
+}
+
 
 .lighter {
   font-weight: 200;
@@ -40,27 +51,25 @@ p {
   font-size: 13px;
 }
 
-.intro > p {
-  margin-bottom: 35px;
-}
-
 .flex {
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 
 p.title {
   color: var(--Very-Dark-Blue);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
-  margin: 0px 0 -10px 0;
+  margin: 0 0 -0.75rem 0;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  padding: 25px;
-  margin: 20px auto 20px;
+  padding: 1.25rem;
+  margin: 1.25rem auto;
+  width: 16rem;
   border-radius: 0.4rem;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
@@ -85,5 +94,8 @@ p.title {
   align-self: flex-end;
 }
 
-@media all and (min-width: 1024px) {
+@media screen and (mid-width: 1024px) {
+  .flex {
+    flex-direction: row;
+  }
 }
