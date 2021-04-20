@@ -1,6 +1,5 @@
 # Frontend Mentor - Four card feature section
 
-
 ## Description
 
 Challenge by frontendmentor.io
