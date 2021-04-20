@@ -31,7 +31,6 @@ body {
   margin: auto auto;
 }
 
-
 .lighter {
   font-weight: 200;
   color: var(--Grayish-Blue);
@@ -51,12 +50,6 @@ p {
   font-size: 13px;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-
 p.title {
   color: var(--Very-Dark-Blue);
   font-size: 1.125rem;
@@ -64,9 +57,20 @@ p.title {
   margin: 0 0 -0.75rem 0;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .card {
   display: flex;
   flex-direction: column;
+  position: relative;
   padding: 1.25rem;
   margin: 1.25rem auto;
   width: 16rem;
@@ -94,8 +98,14 @@ p.title {
   align-self: flex-end;
 }
 
-@media screen and (mid-width: 1024px) {
-  .flex {
+@media only screen and (min-width: 1024px) {
+  .cards-section {
+    display: flex;
     flex-direction: row;
+    align-items: center;
+  }
+  .cards-center {
+    margin-right: 3rem;
+    margin-left: 3rem;
   }
 }
