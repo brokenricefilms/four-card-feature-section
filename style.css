@@ -39,6 +39,7 @@ h1 {
 }
 
 h1 span {
+  font-weight: 600;
   color: var(--Very-Dark-Blue);
 }
 
