@@ -25,3 +25,4 @@ Challenge by frontendmentor.io
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Astro.build Gang
