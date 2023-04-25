@@ -1,0 +1,17 @@
+{
+  "name": "four-card-feature-section",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^4.5.10",
+    "astro": "^2.3.0",
+    "astro-compress": "^1.1.39"
+  }
+}
